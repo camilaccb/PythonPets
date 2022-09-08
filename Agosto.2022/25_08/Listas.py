@@ -11,7 +11,7 @@ print (lista[2])
 print(string[2]) # colchete slice
 
 # start:stop:step
-# O último não é inclusivo, sempretrás o anterior ao stop 
+# O último não é inclusivo, sempre trás o anterior ao stop 
 print (lista[0:3]) 
 print (lista[:3]) #começa do 0
 print(lista[1:4:2])

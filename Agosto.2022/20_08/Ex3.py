@@ -1,6 +1,6 @@
 #Escreva um programa que leia a quantidade de dias, horas, minutos, segundos do usuário. calcule o total em segundos e imprima na tela
 # Prática ruim: números mágicos no código (números que brotam no código)
-# Boa prática: constantes em maiusculo e no início do código com quebra de linha (F12 altera todas as variáveis no código)
+# Boa prática: constantes em maiusculo e no início do código com quebra de linha (F2 altera todas as variáveis no código)
 
 QTD_SEGUNDOS_DIA = 24 * 3600
 QTD_SEGUNDOS_HORA = 60 *60

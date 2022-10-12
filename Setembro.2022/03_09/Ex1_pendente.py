@@ -1,0 +1,1 @@
+# Faça um programa que leia 5 notas de um determinado aluno (matemática, física, quimica, biologia e geografia) e imprima a média

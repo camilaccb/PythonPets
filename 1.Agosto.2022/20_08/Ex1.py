@@ -8,6 +8,7 @@ num1 = int(input('Digite o número 1: '))
 num2 = int(input('Digite o número 2: '))
 soma = num1 + num2
 print('A soma  dos números é: ', num1 + num2)
+
 #print ('A soma dos números {} e {} é {}'.format(num1, num2, soma))
 #Na linha acima pode usar um único format 
 #print (f"A soma do número {num1} e número {num2} é {soma}")

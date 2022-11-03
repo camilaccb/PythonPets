@@ -4,7 +4,7 @@
 # Indexação no python começa com 0 
 
 lista = [1,2,3,4,5,6,7,8]
-string = "Camila Caldas Correia Borges"
+string = "Camila Caldas Correia Borges" # A string é uma lista de caracteres"
 
 print(type(lista))
 print (lista[2])

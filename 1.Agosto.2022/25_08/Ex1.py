@@ -12,5 +12,4 @@ salarioInicial= float(input('Qual o valor do seu salário em R$?'))
 porcentagemDeAumento = float(input('Qual a percentagem de aumento?'))
 valorDoAumento = salarioInicial * porcentagemDeAumento * CONVERSAO_PORCENTAGEM
 novoSalario = salarioInicial + valorDoAumento
-
 print(f'O valor do aumento é R${valorDoAumento:1000.2f} e o novo salário é R$ {novoSalario: 2f}')

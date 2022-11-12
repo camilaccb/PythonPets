@@ -2,7 +2,7 @@
 from random import randint
 
 numero_sorteado = randint(1,10)
-print(f'Número sorteado: {numero_sorteado}')
+#print(f'Número sorteado: {numero_sorteado}')
 
 continuar = True
 

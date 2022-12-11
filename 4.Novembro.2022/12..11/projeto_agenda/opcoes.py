@@ -32,6 +32,7 @@ def adicionar_contato_na_agenda(contato: list, base_de_contatos: dict):
     
     # TODO: dar uma mensagem de erro quando tiver um contato repetido
     
+    
     print("Contato adicionado com sucesso.")
     
 

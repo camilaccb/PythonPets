@@ -19,6 +19,8 @@ base_de_contatos = {}
 print("====== Bem vindo à sua agenda de contatos! ======")
 opcao_escolhida = solicita_opcao_do_usuario()
 
+# TODO: utilizar a opção do match
+
 while opcao_escolhida != 6:
 
     if opcao_escolhida == 1:
@@ -35,8 +37,6 @@ while opcao_escolhida != 6:
 
         if contato_encontrado == nome_contato:
             alteracao = input('Qual alteração você deseja fazer? (1-nome do contato, 2-telefone do contato): ')
-
-        # TODO: permitir alteração de nome e contato sem que o usuário precise retornar ao menu
     
         if alteracao == '1':
             novo_nome_contato = input('Qual o novo nome do contato? ')
@@ -56,7 +56,6 @@ while opcao_escolhida != 6:
     elif opcao_escolhida == 3:
 
         executar_operacao(excluir_contato, base_de_contatos=base_de_contatos)
-        print(base_de_contatos)
         print("====== Escolha outra opção ======")
         opcao_escolhida = solicita_opcao_do_usuario()
             
@@ -70,5 +69,5 @@ while opcao_escolhida != 6:
        print("====== Escolha outra opção ======")
        opcao_escolhida = solicita_opcao_do_usuario() 
 
-    
+
 print('A agenda está sendo encerrada')

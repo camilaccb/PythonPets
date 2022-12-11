@@ -11,7 +11,7 @@ with open(file2, mode = "a", encoding = "utf-8") as f:
 
 # Abrindo um arquivo com 'with' e usando o writelines para escrever
 
-text_to_write = ["linha 2 ","linha 3 ","linha 4 "]
+text_to_write = ["linha 2 ","linha 3"]
 
 with open(file2, mode="a", encoding = "utf-8" ) as f:
     f.writelines(text_to_write)  

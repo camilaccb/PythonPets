@@ -1,0 +1,36 @@
+# Adicionando dados num arquivo 
+    # Com base no projeto da agenda
+# Qual tipo de arquivo?
+    #csv - um arquivo separado por um caractere
+    #tsv - arquivo separado por tabulação
+    #json - um dicionário mais completo
+        #java script object notation
+
+# função built in open
+    #file 
+    #mode (usar o modo append)
+    #enconding (utf-8)
+
+    # Existe métodos associados 
+
+#Escrever (write)
+
+    #É preciso fechar o arquivo antes de escrever
+        # Uma alternativa é usar com contexto "with open"
+        # Context manager python
+        # Quando escrever é preciso fazer a quebra de linha (\n)
+        # Definir o encoding ("utf-8")
+            #Mapeamento de caracteres
+            #utf-8 abrange os caracteres da lingua portuguesa
+            #É preciso criar o arquivo com enconding correto
+#Reading
+    # read - lê todo o texto
+    # readlines - tras as linhas separadas, mas trás o \n no final 
+
+
+#help(srt.strip)
+#Agenda - no python 3.10 existe o match
+#modulo csv python (nativo)
+#modulo json python (nativo)
+#modeulo sqlite
+#banco de dados (robustez)

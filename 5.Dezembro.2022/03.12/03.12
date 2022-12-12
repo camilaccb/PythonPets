@@ -30,7 +30,14 @@
 
 #help(srt.strip)
 #Agenda - no python 3.10 existe o match
+
 #modulo csv python (nativo)
+
 #modulo json python (nativo)
-#modeulo sqlite
+    # Library documentation: https://docs.python.org/3.10/library/json.html
+    # Json Concepts: https://www.youtube.com/watch?v=w79h1Li6n4I
+    # Dump x Dumps:  https://www.youtube.com/watch?v=Crwpg40oEiU
+    # Load x Loads:  https://www.youtube.com/watch?v=fnCncltWbiM
+
+#modulo sqlite
 #banco de dados (robustez)

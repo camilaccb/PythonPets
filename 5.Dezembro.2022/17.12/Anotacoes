@@ -1,0 +1,8 @@
+- O que são ambientes virtuais
+- Introdução ao pandas 
+    - Ler um arquivo csv no formato de dataframe
+    - O que é um dataframe 
+    - Encontrar uma coluna
+    - Filtrar linhas 
+    - Encontrar um determinado valor baseado na posição da linha e da coluna 
+    - Alterar o valor encontrador (linha coluna)

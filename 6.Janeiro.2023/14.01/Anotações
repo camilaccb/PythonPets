@@ -1,0 +1,19 @@
+- Onde encontrar dados
+    - kaggle 
+    - UCI MAchine Learning Repository 
+    - THe data hub
+    - Sites dat.gov
+    - Apis públicas 
+- Tipos de dados
+    - Estatísticos
+        - Dados categóricos 
+            - Tratamento de dados categóricos utilizando variáveis dummies em vez de utilizar ponderação arbitrária  
+
+    - Computacionais
+        - Read csv > lê o arquivo csv
+        - Head
+        - Shape > qtd de linhas e colunas
+        - product.dtypes > tipos de dados computacionais 
+        - isna().sum() > true ou false 
+            - Quando é nulo > NaN > é um float 
+- Variáveis dummies 

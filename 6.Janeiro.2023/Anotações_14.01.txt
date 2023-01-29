@@ -1,0 +1,26 @@
+- Onde encontrar dados
+    - kaggle 
+    - UCI MAchine Learning Repository 
+    - THe data hub
+    - Sites dat.gov
+    - Apis públicas 
+- Tipos de dados
+    - Estatísticos
+        - Dados categóricos/Nao Numericos/ Qualitativos :
+            *Nominais: quando as categorias não possuem uma ordem natural. Ex.: nomes, cores, sexo.
+            *Ordinais: quando as categorias podem ser ordenadas. Ex.: tamanho (pequeno, médio, grande), classe  social (baixa, média, alta), grau de instrução (básico, médio, graduação, pós-graduação)
+
+            obs: Tratamento de dados categóricos utilizando variáveis dummies em vez de utilizar ponderação arbitrária
+
+        - Dados numericos/Quantitativos
+            *Discretas: assumem apenas valores inteiros. Ex.: número de irmãos, número de passageiros
+            *Contínuas: assume qualquer valor no intervalo dos números reais. Ex.: peso, altura
+        
+-Palavras chave: Análise exploratória de dados, análise univariada
+- Boa referência: https://www.inf.ufsc.br/~andre.zibetti/probabilidade/aed.html
+
+    - Computacionais
+        *product.dtypes > tipos de dados computacionais 
+        *isna().sum() > true ou false 
+            - Quando é nulo > NaN > é um float 
+ 

@@ -1,0 +1,41 @@
+[nível fácil]
+-Qual é o tamanho de cada uma das bases (número de linhas e de colunas)?
+-Qual é o tipo de dado estatístico de cada uma delas? Lembrete: categórico nominal/ordinal, numérico discreto/contínuo
+-Quantos clientes distintos existem na base da Olist?
+-Qual o período de abrangência do dataset? De que ano a que ano?
+-Quantos produtos distintos?
+-De onde são a maioria dos clientes?
+-Qual o número médio de produtos vendidos por ordem?
+-Qual é a média de preços por ordem de venda?
+-Quem são os principais vendedores que trazem maior faturamento para Olist?
+
+[médio]
+-Existem outliers e valores nulos, de forma geral, nas bases. Quais seriam as explicações plausíveis? Escolha um dataset e expliquei.
+-O preço dos produtos está em tendência de subida ou descida ao longo do tempo?
+-O mesmo produto vendido por diferentes vendedores com preços diferentes tem alguma correlação com o volume de vendas daquele produto?
+-Pesquise pela taxa média cobrada pelas máquinas de cartão de crédito. Qual é o impacto desta taxa na receita da Olist?
+-Quantos tipos distintos de pagamentos o site da Olist aceita? Refletir sobre pix.
+-O que significam os valores nulos nas colunas order_delivered_carrier_date e order_delivered_customer_date no dataset olist_orders_dataset?
+-Qual é o tempo médio que a Olist demora para entregar um produto, desde à data do pedido até a entrega?
+-A média de vendas na cidade são estatisticamente iguais? Dica: teste de hipótese anova
+
+[difícil]
+-Calcule e interprete as seguintes métricas para o e-commerce da Olist:
+*Average order value (AOV)
+O valor médio por pedido (AOV) informa o valor médio que os clientes gastam de em uma única compra no site.
+Cálculo: AOV = receita_total / n°_total_pedidos
+Interprete!
+*Returning customer rate (taxa de retorno de cliente)
+A taxa de retorno de cliente, também chamada de taxa de cliente recorrente, demonstra o percentual de clientes que fizeram mais de uma compra no site.
+Cálculo: RCR = n° de clientes com mais de uma compra / n° total de clientes
+Interprete!
+*Net Promote Score (NPS)
+O NPS mede a fidelidade e a satisfação geral do cliente. Essa métrica é calculada por meio de uma pesquisa com seus clientes no checkout, fazendo uma pergunta simples: “Em uma escala de 1 a 10, qual a probabilidade de você nos recomendar a um amigo ou familiar?”
+Pense na adaptação para escala de avaliação dos produtos da Olist.
+Padrão de divisão comum para NPS:
+Promotores: Clientes que deram uma nota de 9 a 10
+Passivos: Clientes que deram uma nota de 7 a 8
+Detratores: Clientes que deram nota 6 ou menos
+Cálculo: NPS = % de Promotores - % de Detratores
+Interprete!
+-O que significa a coluna freight_value no dataset olist_order_items_dataset? Como podemos interpretá-la para otimizar a logística de transporte dos produtos?
